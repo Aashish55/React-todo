@@ -5,7 +5,7 @@
     border-radius: 2rem;
     box-shadow: 3px 3px 6px 6px rgba(128, 128, 128, 0.253);
     margin: 5rem;
-    background-color: #edf6f9;
+    background-color: #edf2f4;
 }
 
 .header-image{
@@ -30,13 +30,36 @@ h2{
     padding: 1rem;
 }
 .input{
-    padding: .5rem;
-    border-radius: 1rem;
+    padding: 1.2rem;
     border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: gray;
     outline: none;
-    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.1);
-    width: 70%;
-    height: 4rem;
+    text-decoration-color: white;
+    background-color: white ;
+    box-shadow: 0px 0px 5px 5px rgba(150, 150, 150, 0.25);
+    margin-bottom: 2rem;
+}
+.input:focus{
+    box-shadow: 0px 0px 5px 5px #4ecdc4;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.171);
+    margin-bottom: 2rem;
+}
+.lists{
+    text-align: left;
+    overflow: auto;
+}
+.list{
+    color: gray;
+    font-size: 2rem;
+    font-family: -apple-system, 'Segoe UI';
+    padding-bottom: 1rem;
     margin-bottom: 1rem;
-    font-size: 2.5rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
 }
