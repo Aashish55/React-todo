@@ -1,0 +1,13 @@
+
+body{
+  background-color: #ffeaf0;
+}
+html{
+  font-size: 10px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
